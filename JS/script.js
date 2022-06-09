@@ -16,7 +16,7 @@ function newItem () {
 
     // 2. Crossing out an item from the list
     function crossOut() {
-        li.addClass("strike");
+        li.toggleClass("strike");
     }
 
     $("input").on("dblclick", function crossOut) {
