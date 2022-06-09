@@ -34,7 +34,7 @@ function newItem () {
 
     // 3.2 Adding class delete (display none) from the css
     function deleteListItem () {
-        li.classList("delete");
+        li.addClass("delete");
     }
 
     // 4. Reordering the items
