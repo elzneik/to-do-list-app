@@ -26,7 +26,7 @@ function newItem () {
     // 3. adding the delete button (x)
     // let crossOutButton = $("crossOutButton");
     let crossOutButton = $("<crossOutButton> </crossOutButton>"); // Question: What is the difference between line 27 and 28
-    delete.crossOutButton.append(document.createTextNode('X'));
+   crossOutButton.append(document.createTextNode('X'));
     li.append(crossOutButton);
 
     $("crossOutButton").on("click").delete("li");
