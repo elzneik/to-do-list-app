@@ -8,5 +8,9 @@ function newItem () { // set function
     // let text = $(" ");
     li.append("inputValue");
 
-$("inputValue").alert("You must write something").$("#list").list.append(li);
+    if (inputValue === " ") {
+        alert("You must write something")
+    } else {
+        $("#list").append(li);
+    }
 }
