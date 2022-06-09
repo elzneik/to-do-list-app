@@ -22,4 +22,11 @@ function newItem () {
     $("input").on("dblclick", function crossOut) {
         li.toggleClass(strike);    // Question: I do not understand that line
     };
+
+    // 3. adding the delete button (x)
+    let crossOutButton = $("crossOutButton");
+    delete.crossOutButton.append(document.createTextNode('X'));
+    li.append(crossOutButton);
+
+    $("crossOutButton").on("click").delete("li");
 }
