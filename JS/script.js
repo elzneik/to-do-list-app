@@ -13,4 +13,11 @@ function newItem () { // set function
     } else {
         $("#list").append(li);
     }
+
+    // 2. Crossing out an item from the list
+    function crossOut() {
+        li.addClass("strike");
+    }
+
+    $("input").on("click", function crossOut);
 }
