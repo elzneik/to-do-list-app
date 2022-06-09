@@ -19,9 +19,9 @@ function newItem () {
         li.toggleClass("strike");
     }
 
-    $("input").on("dblclick", function crossOut) {
+    li.on("dblclick", function crossOut() {
         li.toggleClass(strike);    // Question: I do not understand that line
-    };
+    });
 
     // 3.1 adding the delete button (x)
     // let crossOutButton = $("crossOutButton");
