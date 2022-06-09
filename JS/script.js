@@ -1,4 +1,4 @@
-function newItem () { // set function
+function newItem () { 
 
     // jQuery
     // 1. Adding a new item to the list of items
@@ -19,5 +19,7 @@ function newItem () { // set function
         li.addClass("strike");
     }
 
-    $("input").on("click", function crossOut);
+    $("input").on("dblclick", function crossOut) {
+        li.toggleClass(strike);    // Question: I do not understand that line
+    };
 }
