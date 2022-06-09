@@ -5,7 +5,7 @@ function newItem () { // set function
 
     let li = $("<li> </li>");
     let inputValue = $("#input").val();
-    let text = $(" ");
+    // let text = $(" ");
     li.append("inputValue");
 
 
