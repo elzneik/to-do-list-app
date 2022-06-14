@@ -6,7 +6,7 @@ function newItem () {
     let li = $("<li> </li>");
     let inputValue = $("#input").val();
     // let text = $(" ");
-    li.append("inputValue");
+    li.append(inputValue);
 
     if (inputValue === " ") {
         alert("You must write something")
@@ -38,5 +38,6 @@ function newItem () {
     }
 
     // 4. Reordering the items
-    $("list").sortable();
+    // to make a list sortable a hashtag is necessary
+    $("#list").sortable();
 }
